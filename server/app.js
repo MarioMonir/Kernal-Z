@@ -39,5 +39,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+app.listen(port=3000, () => {
+  console.log(`Serve is up on http://localhost:${port}`)
+})
 
 module.exports = app;
