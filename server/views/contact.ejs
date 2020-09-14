@@ -476,6 +476,12 @@
           if (this.status == 200) {
             console.log('succeed')
             console.log(this.responseText)
+            document.getElementById('url').value='';
+            document.getElementById('name').value='';
+            document.getElementById('email').value='';
+            document.getElementById('phone').value='';
+            document.getElementById('message').value='';
+
           }
           else if (this.status == 400) {
             console.log('enternal server error');
