@@ -2,12 +2,12 @@
     File Name: colors1.css
 -------------------------------------------------------------------*/
 
-:root{
- --theme-color:green;
-}
+
 /*------------------------------------------------------------------
-    color theme
+	color theme
 -------------------------------------------------------------------*/
+@import 'colors.css';
+
 
 .header_top,
 #navbar_menu ul ul li a:hover,
@@ -86,7 +86,7 @@ a.btn.main_bt:hover,
 a.btn.main_bt:focus,
 button.btn.main_bt:hover,
 button.btn.main_bt:focus {
-	background: #25d8ed;
+	background: var(--theme-color);
 	background-size: 100% 100%;
 	color: #fff;
 }
@@ -110,7 +110,7 @@ a.btn.light_btn:focus {
 }
 
 .modal-backdrop {
-	background-color: rgba(3, 158, 227, .95);
+	background-color:var(--theme-color);
 }
 
 #navbar_menu ul ul,

@@ -6,6 +6,8 @@
 /*------------------------------------------------------------------
     color theme
 -------------------------------------------------------------------*/
+@import 'colors.css';
+
 
 .header_top,
 #navbar_menu ul ul li a:hover,
@@ -77,7 +79,7 @@ footer h2::after,
 
 a.btn.main_bt,
 button.btn.main_bt {
-	background: #17a5e9;
+	background: var(--theme-color);
 	border: none;
 }
 

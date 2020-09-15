@@ -1,14 +1,13 @@
 /*------------------------------------------------------------------
     File Name: colors2.css
 -------------------------------------------------------------------*/
-:root{
-    --theme-colo-2: red;
-   }
+
    /* #3c5c9e */
 
 /*------------------------------------------------------------------
     color theme
 -------------------------------------------------------------------*/
+@import 'colors.css';
 
 .header_top,
 #navbar_menu ul ul li a:hover,
@@ -79,7 +78,7 @@ footer h2::after,
 
 a.btn.main_bt,
 button.btn.main_bt {
-	background: #17a5e9;
+	background:var(--theme-color);
 	border: none;
 }
 
@@ -111,7 +110,7 @@ a.btn.light_btn:focus {
 }
 
 .modal-backdrop {
-	background-color: rgba(60, 92, 158, .95);
+	background-color: #3c5c9e;
 }
 
 #navbar_menu ul ul,
