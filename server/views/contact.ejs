@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <!-- site metas -->
-  <title>It.Next - IT Service Responsive Html Theme</title>
+  <title>Kernal-Z - Contact us</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -265,47 +265,9 @@
                 <li data-target="#testimonial_slider" data-slide-to="2"></li>
               </ul>
               <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="testimonial-container">
-                    <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most
-                      of all hassle free! I wish I would have thought of it first.
-                      I am really satisfied with my first laptop service. </div>
-                    <div class="testimonial-photo"> <img src="images/it_service/client1.jpg" class="img-responsive"
-                        alt="#" width="150" height="150"> </div>
-                    <div class="testimonial-meta">
-                      <h4>Maria Anderson</h4>
-                      <span class="testimonial-position">CFO, Tech NY</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="testimonial-container">
-                    <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most
-                      of all hassle free! I wish I would have thought of it first.
-                      I am really satisfied with my first laptop service. </div>
-                    <div class="testimonial-photo"> <img src="images/it_service/client2.jpg" class="img-responsive"
-                        alt="#" width="150" height="150"> </div>
-                    <div class="testimonial-meta">
-                      <h4>Maria Anderson</h4>
-                      <span class="testimonial-position">CFO, Tech NY</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="testimonial-container">
-                    <div class="testimonial-content"> You guys rock! Thank you for making it painless, pleasant and most
-                      of all hassle free! I wish I would have thought of it first.
-                      I am really satisfied with my first laptop service. </div>
-                    <div class="testimonial-photo"> <img src="images/it_service/client3.jpg" class="img-responsive"
-                        alt="#" width="150" height="150"> </div>
-                    <div class="testimonial-meta">
-                      <h4>Maria Anderson</h4>
-                      <span class="testimonial-position">CFO, Tech NY</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                 <!-- The slideshow of clients opnion  -->
+                 <div class="carousel-inner clients-opnion"></div>
+                 <!-- END  The slideshow of clients opnion -->
             </div>
           </div>
         </div>
@@ -328,7 +290,7 @@
                 <h2>REQUEST A FREE QUOTE</h2>
                 <p>Get answers and advice from people you want it from.</p>
               </div>
-              <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="contact">Contact us</a> </div>
+              <div class="button_Section_cont"> <a class="btn dark_gray_bt" href="contact-us">Contact us</a> </div>
             </div>
           </div>
         </div>
@@ -476,11 +438,11 @@
           if (this.status == 200) {
             console.log('succeed')
             console.log(this.responseText)
-            document.getElementById('url').value='';
-            document.getElementById('name').value='';
-            document.getElementById('email').value='';
-            document.getElementById('phone').value='';
-            document.getElementById('message').value='';
+            document.getElementById('url').value = '';
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('phone').value = '';
+            document.getElementById('message').value = '';
 
           }
           else if (this.status == 400) {
@@ -615,6 +577,11 @@
       });
     }
   </script>
+
+
+  <!-- Mario.js  -->
+  <script src="data/config.js"></script>
+  <script src="data/clientOpinion.js"></script>
   <!-- google map js -->
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>

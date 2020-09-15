@@ -1,14 +1,3 @@
-let products = [
-  { imgName: "1.jpg", productUrl: "#", productName: "Kernelz1" },
-  { imgName: "2.jpg", productUrl: "#", productName: "Kernelz2" },
-  { imgName: "3.jpg", productUrl: "#", productName: "Kernelz3" },
-  { imgName: "4.jpg", productUrl: "#", productName: "Kernelz4" },
-  { imgName: "5.jpg", productUrl: "#", productName: "Kernelz5" },
-  { imgName: "6.jpg", productUrl: "#", productName: "Kernelz1" },
-  { imgName: "7.jpg", productUrl: "#", productName: "Kernelz2" },
-  { imgName: "8.jpg", productUrl: "#", productName: "Kernelz1" },
-];
-
 const productsDiv = document.querySelector(".products");
 
 console.log(productsDiv);
