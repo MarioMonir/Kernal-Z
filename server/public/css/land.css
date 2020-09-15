@@ -1,0 +1,35 @@
+.land {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*border: 15px solid orange;*/
+     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+}
+
+.tech {
+    color:white;
+    flex: 1;
+    align-self: stretch;
+    text-align: center;
+    background:url("../images/land/image3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    padding: 30px 0px 0px 0px;  
+}
+
+.construction {
+    color:white;
+    flex: 1;
+    align-self: stretch;
+    text-align: center;
+    background:url("../images/land/image2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    padding: 30px 0px 0px 0px; 
+
+}
