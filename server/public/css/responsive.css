@@ -530,9 +530,7 @@
     text-align: center;
     font-size: 15px;
    }
-   .product_list {
-    min-height: auto;
-}
+
 	/**== layout ==**/
 	.footer_mail-section .field {
         padding: 0;
@@ -1641,7 +1639,6 @@
 
 
 .product_list {
-    min-height: auto;
     padding-bottom: 30px;
 }
 
@@ -1725,7 +1722,6 @@
 
 
 .product_list {
-    min-height: auto;
     padding-bottom: 30px;
 	transition: ease all 0.5s;
 }

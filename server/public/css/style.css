@@ -3101,12 +3101,10 @@ span.skill {
 	-------------------------------------------------------------------*/
 
 .product_list {
-	min-height: 400px;
 	transition: ease all 0.5s;
 }
 
 .cleaning .product_list {
-	min-height: 340px;
 	transition: ease all 0.5s;
 }
 
